@@ -38,10 +38,10 @@ Define the desired output vector ‘Y’ scaled to +1 or -1 for two classes C1 a
 Assign Initial Weight vector ‘W’ as 0 as the dimension of ‘X’
 Assign the learning rate
 For ‘N ‘ iterations ,do the following:
-      ```
+      
         v(i) = w(i)*x(i)
        W (i+i)= W(i) + learning_rate*(y(i)-t(i))*x(i)
-      ```
+     
 Plot the error for each iteration 
 
 ```
@@ -119,14 +119,21 @@ plt.ylabel('Errors')
 plt.show()
 ```
 ## OUTPUT :
-
 ## Dataset :
+
+![image](https://github.com/22008008/Experiment-2--Implementation-of-Perceptron/assets/118343520/8e301730-ddf5-4272-bbad-0ee586c2c419)
 
 ## Scatter Plot :
 
+![image](https://github.com/22008008/Experiment-2--Implementation-of-Perceptron/assets/118343520/e6b3cc33-a2e0-4a94-9036-336cda5cfe71)
+
 ## Accuracy :
 
+![image](https://github.com/22008008/Experiment-2--Implementation-of-Perceptron/assets/118343520/f2f0b73a-3012-4a6b-b3d2-e4cd2956cd71)
+
 ## Error Plot :
+
+![image](https://github.com/22008008/Experiment-2--Implementation-of-Perceptron/assets/118343520/6d2773f5-5106-49f2-bcda-17b024069d2a)
 
 ## Result :
 ```
